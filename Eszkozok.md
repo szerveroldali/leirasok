@@ -24,7 +24,7 @@ A PHP és a Composer a Laraveles témakörhöz szükséges. A PHP lehetővé tes
 
 ## Node.js
 
-A Node.js a REST API, GraphQL és a Websocket (Socket.IO) témakörhöz szükséges. Alapvetően két dolgot telepít: Node.js és npm.
+A Node.js az egész félév során fontos lesz, hiszen ezzel fogjuk kezelni Laravel frontend oldali asset-eit, valamint teljes mértékben erre fog épülni a félév második fele: REST API, GraphQL és a Websocket (Socket.IO). Alapvetően két dolgot telepít: Node.js és npm. A Node.js egy JavaScript runtime, ami a Chrome V8-as motorja köré épül, az npm pedig ehhez ad egy csomagkezelőt (Node Package Manager).
 
 Ha a gépedre már telepítve van a Node.js és telepített példány legalább 2 főverzióval le van maradva az aktuálisan letölthető legfrissebbhez képest, akkor érdemes lehet frissíteni.
 
