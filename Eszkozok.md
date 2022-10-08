@@ -95,8 +95,9 @@ A VSCode egy elterjedt, jól támogatott és gyors szerkesztő. A gyakorlatok so
 
 1. Töltsd le a VSCode legfrissebb verzióját a hivatalos letöltőoldalról: https://code.visualstudio.com/download
 2. Telepítsd fel az alábbi kiegészítőket:
-   - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) - Laravel fejlesztéshez
    - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Gyakorlatokon végzett közös munkához
+   - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) - Laravel fejlesztéshez
+   - [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer) - SQLite adatbázisokba betekintéshez (pl. DB Browser helyett)
    - [GraphQL](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql) - GraphQL támogatás, syntax highlight
    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Kódok formázásához
 
