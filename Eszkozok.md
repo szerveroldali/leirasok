@@ -69,7 +69,7 @@ Az nvm a Node Version Manager rövidítése, amely több Node.js verzió együtt
 
 ### node-gyp függőségek
 
-Léteznek olyan csomagok, amelyek különféle binárisokat használnak a működésükhöz. Előfordul, hogy ezeket a binárisokat a csomag telepítésekor kell build-elni, és ilyenkor jön képbe a **node-gyp**. Ezen csomagok egyik tipikus esete az **sqlite3**, amit a gyakorlatokon a Sequelize-hoz használunk adatbázis kezelő modulként. Ha a node-gyp működéséhez szükséges függőségek nem állnak rendelkezésre, akkor a csomagok telepítése hibához fog vezetni.
+Léteznek olyan csomagok, amelyek különféle binárisokat használnak a működésükhöz. Előfordul, hogy ezeket a binárisokat a csomag telepítésekor kell előállítani pl. C/C++ kódból, és ilyenkor jön képbe a **node-gyp**. Ezen csomagok egyik tipikus esete az **sqlite3**, amit a gyakorlatokon a Sequelize-hoz használunk adatbázis kezelő modulként. Ha a node-gyp működéséhez szükséges függőségek nem állnak rendelkezésre, akkor a binárisok előállítása nem fog sikerülni, ezért a csomagok telepítése is hibához fog vezetni.
 
 A node-gyp build-ek megfelelő működéséhez az alábbi tool-oknak kell rendelkezésre állniuk:
 
@@ -85,7 +85,7 @@ A node-gyp build-ek megfelelő működéséhez az alábbi tool-oknak kell rendel
   - XCode Command Line Tools
   - Bővebben: https://github.com/nodejs/node-gyp#on-macos
 
-A Node.js telepítésekor megadható, hogy automatikusan telepítse ezeket a build-hez szükséges tool-okat:
+A Node.js telepítésekor is megadható, hogy automatikusan telepítse ezeket a build-hez szükséges tool-okat:
 
 <img src="https://i.imgur.com/pgNyM4Z.png" width="350px" alt="Node.js build tools">
 
